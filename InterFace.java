@@ -5,17 +5,16 @@ public class InterFace {
 
         PasswordX check = new PasswordX();  // Object For PasswordX
         Account call = new Account();       // Object For Account Type
+        Index list = new Index();
+        Savings demo = new Savings();
+
+        check.password_check();
+        
+       
         
 
-        check.password_Print_Line();
-        int password_Enter = input.nextInt();
-
-        if (check.checkpassword(password_Enter) == true ){ 
-           call.list1();                  
-                  
-        } else ;
-        
-
+    
+       
         
 
        

@@ -1,15 +1,23 @@
+import java.util.Scanner;
+
 public class PasswordX {
 
-    void password_Print_Line() {
+    public boolean password_check() {
 
-        System.out.print("Enter Your 4 digit Pin Number : "); }
+        Scanner scan = new Scanner(System.in);
+        Index list = new Index();
+        Account call = new Account();
+
+        System.out.print("Enter Your 4 digit Pin Number : "); 
+        int password = scan.nextInt();;
+   
     
-    boolean checkpassword(int x){ 
-        
-            int password_input = x ; 
-    
-            if (password_input == 2244) {
-                System.out.println();                
+            if (password == 2244) {
+                System.out.println();   
+                
+                list.index_List();
+                call.list1();
+
                 return true ;}
             else {
                 System.out.println("You Entered Wrong Pin Number");

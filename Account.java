@@ -4,6 +4,10 @@ public class Account {
 
     public byte list1() {
         
+
+        Index list = new Index();
+        
+
         String []print_Line_For_Type = new String[3];
         print_Line_For_Type[0] = "\n \nSelect Account Type : \n" ;
         print_Line_For_Type[1] = "1.Savings" ;
@@ -19,6 +23,9 @@ public class Account {
         System.out.println();
 
         input.close();
+
+        list.index_List();
+
         return account_type ;
         
         }

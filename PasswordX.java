@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class PasswordX {
 
+    
+
     public boolean password_check() {
 
         Scanner scan = new Scanner(System.in);
@@ -15,7 +17,7 @@ public class PasswordX {
             if (password == 2244) {
                 System.out.println();   
                 
-                list.index_List();
+               
                 call.list1();
 
                 return true ;}

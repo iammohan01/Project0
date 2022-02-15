@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Savings {
 
     public int list(){
-        String []options = new String[5];
+      String []options = new String[5];
         options[0] = "\nChoose options from below list : \n";
         options[1] = "Cash Withdrawl" ;
         options[2] = "Cash Deposit" ;

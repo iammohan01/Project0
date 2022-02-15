@@ -8,7 +8,7 @@ public class InterFace {
         Index list = new Index();
         Savings demo = new Savings();
 
-        check.password_check();
+        check.password_check();      
         
        
         

@@ -1,24 +1,14 @@
-import java.util.Scanner;
 
 public class PasswordX {
 
     
 
-    public boolean password_check() {
+    public boolean password_check(int password ) {
 
-        Scanner scan = new Scanner(System.in);
-        Index list = new Index();
-        Account call = new Account();
-
-        System.out.print("Enter Your 4 digit Pin Number : "); 
-        int password = scan.nextInt();;
-   
     
+
             if (password == 2244) {
-                System.out.println();   
-                
-               
-                call.list1();
+                System.out.println();               
 
                 return true ;}
             else {

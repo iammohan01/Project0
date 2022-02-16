@@ -1,8 +1,6 @@
-import java.util.Scanner;
-
 public class Index{
         
-    public int index_List() { 
+    public byte index_List() { 
         String []options = new String[5];
         options[0] = "\n\nChoose options from below list : \n";
         options[1] = "Cash Withdrawl \n" ;
@@ -13,13 +11,15 @@ public class Index{
             System.out.println(options[0]);
         for(int i = 1 ; i < 5 ; i++){
             System.out.print( i + ". "+ options[i]);
-        }
+        }return 0 ; 
 
-        Scanner scanInput = new Scanner(System.in);
+    }
 
-        return scanInput.nextInt();
+       
+        
+       
+        
 
         //return 0 ;
 
     }
-}
